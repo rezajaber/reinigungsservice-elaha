@@ -6,6 +6,6 @@ import Hero from "../components/Hero.vue";
 <template>
   <div class="">
     <Header />
-    <Hero class="mt-14 md:mt-28" />
+    <Hero class="md:mt-28" />
   </div>
 </template>

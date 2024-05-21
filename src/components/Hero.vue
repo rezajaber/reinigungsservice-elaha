@@ -38,20 +38,20 @@ import Button from "./ui/button/Button.vue";
     <div
       class="mx-auto grid max-w-[1080px] items-center px-4 md:px-20 lg:flex lg:items-center lg:px-24 xl:px-0"
     >
-      <div class="break-words text-center md:text-start">
+      <div class="text-center md:text-start">
         <div class="lg:flex lg:items-center lg:gap-20">
           <div>
-            <p class="mb-7 font-semibold md:text-lg">
+            <p class="mb-8 font-semibold md:text-lg">
               Willkommen bei S&N Gebäudereinigung
             </p>
-            <h1 class="mb-4 text-4xl font-extrabold">
+            <h1 class="mb-6 text-[40px] font-extrabold leading-10">
               WEIL SAUBER NICHT GLEICH SAUBER IST
             </h1>
             <p class="font-light leading-7 tracking-wide md:text-lg">
-              Entdecken Sie Reinigung, die über das Sichtbare hinausgeht:
-              Qualität, Flexibilität und Nachhaltigkeit in jedem Schritt. In
-              Hamburg sind wir Ihr verlässlicher Partner für eine saubere Umwelt
-              und Zufriedenheit.
+              Entdecken Sie Reinigung, die über das Sichtbarew hinausgeht:
+              <b>Qualität, Flexibilität</b> und <b>Nachhaltigkeit</b> in jedem
+              Schritt. In Hamburg sind wir Ihr verlässlicher Partner für eine
+              saubere Umwelt und Zufriedenheit.
             </p>
           </div>
 
