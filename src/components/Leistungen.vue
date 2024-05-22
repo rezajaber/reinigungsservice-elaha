@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { EllipsisVertical } from "lucide-vue-next";
+import Card from "../components/Card.vue";
 </script>
 
 <template>
@@ -38,25 +39,10 @@ import { EllipsisVertical } from "lucide-vue-next";
     </div>
 
     <!-- Additional services section with highlighted information -->
-    <div
-      class="grid gap-4 rounded-lg bg-[#E5F5F7] px-3.5 py-10 text-center md:p-10 md:text-start"
-    >
-      <div class="flex items-center justify-center gap-2 md:justify-start">
-        <EllipsisVertical class="stroke-[#03B4CB]" />
-        <p class="text-xl font-semibold">
-          Weitere Reinigungsleistungen in Hamburg
-        </p>
-      </div>
-      <p class="break-words text-lg font-light leading-7">
-        Unser umfassendes Reinigungsangebot deckt eine breite Palette an
-        spezialisierten Dienstleistungen ab, darunter
-        <b
-          >Schul- und Kindergartenreinigung, Fitnessstudio- und
-          Sportanlagenreinigung, Verkehrsmittelreinigung, Restaurantreinigung,
-          Reinigung von Vereinsräumlichkeiten, Eventreinigung</b
-        >
-        und <b>Messereinigung.</b>
-      </p>
-    </div>
+    <Card
+      cardColor="bg-[#E5F5F7]"
+      cardTitle="Weitere Reinigungsleistungen in Hamburg"
+      cardContent="Unser umfassendes Reinigungsangebot deckt eine breite Palette an spezialisierten Dienstleistungen ab, darunter Schul- und Kindergartenreinigung, Fitnessstudio- und Sportanlagenreinigung, Verkehrsmittelreinigung, Restaurantreinigung, Reinigung von Vereinsräumlichkeiten, Eventreinigung und Messereinigung."
+    />
   </div>
 </template>
