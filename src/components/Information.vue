@@ -4,15 +4,16 @@
   <div
     class="mx-auto grid max-w-[1080px] place-items-center gap-6 rounded-lg border-2 border-[#02B4CB] bg-white px-3 py-14 md:px-10 lg:flex lg:gap-14 xl:gap-24"
   >
-    <!-- LOGO -->
+    <!-- LOGO (Mobile) -->
     <img
       src="../assets/img/logo-grid.svg"
       alt="Logo"
       class="w-52 md:w-80 lg:hidden"
     />
 
-    <!-- STAR RATING -->
+    <!-- STAR RATING AND TEXT -->
     <div class="grid place-items-center gap-6 md:place-items-start">
+      <!-- STAR RATING -->
       <div class="grid gap-1 text-center text-sm font-light md:text-start">
         <p>Top Service für Sie</p>
         <div class="flex items-center">
@@ -102,7 +103,7 @@
       </p>
     </div>
 
-    <!-- LOGO -->
+    <!-- LOGO (Desktop) -->
     <img
       src="../assets/img/logo-grid.svg"
       alt="Logo"

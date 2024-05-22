@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { Menu, Mail, Phone } from "lucide-vue-next";
-
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -37,13 +36,11 @@ import {
 
               <div class="grid gap-2.5">
                 <Button type="button" variant="secondary">
-                  <Mail class="mr-2 w-5" />reinigungsservice@gmail.com
+                  <Mail class="mr-2 w-5" /> reinigungsservice@gmail.com
                 </Button>
-
                 <Button type="button" variant="secondary">
-                  <Phone class="mr-2 w-5" />01523-5884265
+                  <Phone class="mr-2 w-5" /> 01523-5884265
                 </Button>
-
                 <Button class="bg-green-700">WhatsApp</Button>
               </div>
             </DialogContent>
@@ -52,7 +49,7 @@ import {
 
         <!-- LAPTOP HEADER -->
         <div class="hidden items-center gap-6 lg:flex">
-          <span class="text-md font-semibold">info@sn-hamburg@de</span>
+          <span class="text-md font-semibold">info@sn-hamburg.de</span>
           <span class="text-md font-semibold">0151-283402930</span>
           <Button class="bg-green-700 px-8">WhatsApp</Button>
         </div>

@@ -9,7 +9,6 @@ import { Separator } from "@/components/ui/separator";
   >
     <div class="grid place-items-center rounded-lg px-3">
       <HeartHandshake class="mb-6 scale-150 fill-blue-400 stroke-white" />
-
       <div class="grid gap-4 text-center">
         <h3 class="text-xl font-semibold">Persönlicher Kundenservice</h3>
         <p class="font-light tracking-wide">
@@ -21,9 +20,8 @@ import { Separator } from "@/components/ui/separator";
 
     <Separator class="lg:hidden" />
 
-    <div class="grid place-items-center rounded-lg">
-      <HeartHandshake class="mb-4 scale-150 fill-blue-400 stroke-white" />
-
+    <div class="grid place-items-center rounded-lg px-3">
+      <HeartHandshake class="mb-6 scale-150 fill-blue-400 stroke-white" />
       <div class="grid gap-4 text-center">
         <h3 class="text-xl font-semibold">Persönlicher Kundenservice</h3>
         <p class="font-light tracking-wide">
@@ -35,9 +33,8 @@ import { Separator } from "@/components/ui/separator";
 
     <Separator class="lg:hidden" />
 
-    <div class="grid place-items-center rounded-lg">
-      <HeartHandshake class="mb-4 scale-150 fill-blue-400 stroke-white" />
-
+    <div class="grid place-items-center rounded-lg px-3">
+      <HeartHandshake class="mb-6 scale-150 fill-blue-400 stroke-white" />
       <div class="grid gap-4 text-center">
         <h3 class="text-xl font-semibold">Persönlicher Kundenservice</h3>
         <p class="font-light tracking-wide">

@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { ClipboardList } from "lucide-vue-next";
-import { NotebookPen } from "lucide-vue-next";
-
+import { ClipboardList, NotebookPen } from "lucide-vue-next";
 import Button from "./ui/button/Button.vue";
 </script>
 
@@ -19,30 +17,27 @@ import Button from "./ui/button/Button.vue";
             WEIL SAUBER NICHT GLEICH SAUBER IST
           </h1>
           <p class="font-light leading-7 tracking-wide md:text-lg">
-            Entdecken Sie Reinigung, die über das Sichtbarew hinausgeht:
+            Entdecken Sie Reinigung, die über das Sichtbare hinausgeht:
             <b>Qualität, Flexibilität</b> und <b>Nachhaltigkeit</b> in jedem
             Schritt. In Hamburg sind wir Ihr verlässlicher Partner für eine
             saubere Umwelt und Zufriedenheit.
           </p>
         </div>
-
         <img
           src="../assets/img/cleaning.png"
           class="hidden lg:block lg:h-80 xl:h-96"
-          alt=""
+          alt="Cleaning"
         />
       </div>
-
       <div class="mt-8 grid place-items-center gap-2 md:flex xl:mt-0">
-        <Button class="w-fit px-8"
-          ><NotebookPen class="mr-2 w-5" />Angebot anfordern
+        <Button class="w-fit px-8">
+          <NotebookPen class="mr-2 w-5" />Angebot anfordern
         </Button>
-        <Button class="w-fit px-8"
-          ><ClipboardList class="mr-2 w-5" />Unsere Leistungen
+        <Button class="w-fit px-8">
+          <ClipboardList class="mr-2 w-5" />Unsere Leistungen
         </Button>
       </div>
-
-      <img src="../assets/img/cleaning.png" class="lg:hidden" alt="" />
+      <img src="../assets/img/cleaning.png" class="lg:hidden" alt="Cleaning" />
     </div>
   </div>
 </template>
