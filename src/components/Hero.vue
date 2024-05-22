@@ -11,7 +11,7 @@ import Button from "./ui/button/Button.vue";
       aria-hidden="true"
     >
       <div
-        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#0ff] to-[#0f0] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#0ff] via-[#0f0] to-[#00f] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
         style="
           clip-path: polygon(
             74.1% 44.1%,

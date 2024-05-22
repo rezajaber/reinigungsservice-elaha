@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { EllipsisVertical } from "lucide-vue-next";
 import Card from "../components/Card.vue";
 </script>
 
@@ -24,17 +23,20 @@ import Card from "../components/Card.vue";
     <!-- Grid of services with responsive columns and spacing -->
     <div class="mb-5 grid auto-rows-auto gap-6 md:grid-cols-2 lg:grid-cols-3">
       <!-- Loop to create each service item -->
-      <div v-for="i in 9" :key="i">
-        <img
-          src="../assets/img/leistung.jpg"
-          class="rounded-t-lg"
-          alt="Leistungen"
-        />
-        <p
-          class="rounded-b-lg bg-[#02B4CB] py-3.5 text-center text-xl font-semibold text-white"
+      <div v-for="i in 9" :key="i" class="relative">
+        <div
+          class="relative cursor-pointer duration-300 ease-in-out hover:scale-105"
         >
-          Gebäudereinigung
-        </p>
+          <img
+            src="../assets/img/leistung.jpg"
+            class="rounded-lg brightness-50 duration-300 ease-in-out hover:scale-105"
+            alt="Leistungen"
+          />
+          <span
+            class="absolute inset-0 flex items-center justify-center text-2xl font-medium tracking-wide text-white"
+            >Gebäudereinigung</span
+          >
+        </div>
       </div>
     </div>
 
