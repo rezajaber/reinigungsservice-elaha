@@ -51,7 +51,7 @@ import {
         <div class="hidden items-center gap-6 lg:flex">
           <span class="text-md font-semibold">info@sn-hamburg.de</span>
           <span class="text-md font-semibold">0151-283402930</span>
-          <Button class="bg-green-700 px-8">WhatsApp</Button>
+          <Button class="px-8">WhatsApp</Button>
         </div>
       </div>
     </div>
