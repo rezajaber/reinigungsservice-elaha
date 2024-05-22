@@ -29,7 +29,10 @@ import Button from "./ui/button/Button.vue";
           alt="Cleaning"
         />
       </div>
-      <div class="mt-8 grid place-items-center gap-2 md:flex xl:mt-0">
+
+      <div
+        class="mt-8 grid place-items-center gap-2 md:flex lg:-mt-2 xl:-mt-12"
+      >
         <Button class="w-fit px-8">
           <NotebookPen class="mr-2 w-5" />Angebot anfordern
         </Button>
