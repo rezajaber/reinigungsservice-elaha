@@ -8,6 +8,7 @@ import Vorteile from "../components/Vorteile.vue";
 import Engagement from "../components/Engagement.vue";
 import Einsatzgebiete from "../components/Einsatzgebiete.vue";
 import ContactUs from "../components/ContactUs.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
@@ -27,5 +28,6 @@ import ContactUs from "../components/ContactUs.vue";
     />
     <Einsatzgebiete class="mb-12 px-5 md:px-20" />
     <ContactUs class="bg-[#E5F5F7] px-5 py-8 md:px-20 md:py-20 xl:px-0" />
+    <Footer class="bg-[#1A213C] py-12" />
   </div>
 </template>
