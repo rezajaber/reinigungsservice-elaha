@@ -2,6 +2,11 @@
 import { EllipsisVertical } from "lucide-vue-next";
 
 const props = defineProps({
+  cardColor: {
+    type: String,
+    required: true,
+    default: "bg-white",
+  },
   cardTitle: {
     type: String,
     required: true,
@@ -9,11 +14,6 @@ const props = defineProps({
   cardContent: {
     type: String,
     required: true,
-  },
-  cardColor: {
-    type: String,
-    required: true,
-    default: "bg-white",
   },
 });
 </script>
