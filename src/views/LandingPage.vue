@@ -8,14 +8,14 @@ import Leistungen from "../components/Leistungen.vue";
 
 <template>
   <div>
-    <Header class="mb-12" />
-    <Hero />
+    <Header class="fixed inset-x-0 top-0 z-10 bg-white" />
+    <Hero class="mt-40" />
 
-    <div class="my-12 grid gap-10 bg-[#E5F5F7] px-5 py-16 md:px-20 lg:px-24">
+    <div class="my-16 grid gap-10 bg-[#E5F5F7] px-5 py-16 md:px-20 lg:px-24">
       <TopThree />
       <Information />
     </div>
 
-    <Leistungen class="mb-12 px-5" />
+    <Leistungen class="mb-12 px-5 lg:px-0" />
   </div>
 </template>
