@@ -8,7 +8,7 @@ import Card from "../components/Card.vue";
     <!-- Header section with title and description -->
     <div class="grid gap-3">
       <h3
-        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-[#03B4CB]"
+        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-primary"
       >
         Unsere Leistungen für Gewerbereinigung in Hamburg
       </h3>
@@ -42,7 +42,7 @@ import Card from "../components/Card.vue";
 
     <!-- Additional services section with highlighted information -->
     <Card
-      cardColor="bg-[#E5F5F7]"
+      cardColor="bg-primary"
       cardTitle="Weitere Reinigungsleistungen in Hamburg"
       cardContent="Unser umfassendes Reinigungsangebot deckt eine breite Palette an spezialisierten Dienstleistungen ab, darunter Schul- und Kindergartenreinigung, Fitnessstudio- und Sportanlagenreinigung, Verkehrsmittelreinigung, Restaurantreinigung, Reinigung von Vereinsräumlichkeiten, Eventreinigung und Messereinigung."
     />

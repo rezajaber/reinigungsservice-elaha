@@ -23,12 +23,12 @@ const props = defineProps({
     :class="`grid gap-4 rounded-lg ${props.cardColor} px-3.5 py-10 text-center md:p-10 md:text-start`"
   >
     <div class="flex items-center justify-center gap-1 md:justify-start">
-      <EllipsisVertical class="hidden stroke-[#03B4CB] md:block" />
-      <p class="text-xl font-semibold">
+      <EllipsisVertical class="hidden stroke-[white] md:block" />
+      <p class="text-xl font-semibold text-white">
         {{ props.cardTitle }}
       </p>
     </div>
-    <p class="break-words text-lg font-light leading-7">
+    <p class="break-words text-lg font-light leading-7 text-white">
       {{ props.cardContent }}
     </p>
   </div>

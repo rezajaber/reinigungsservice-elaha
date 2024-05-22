@@ -17,7 +17,7 @@ import Button from "./ui/button/Button.vue";
       class="mx-auto mb-8 grid max-w-[1080px] gap-6 text-center md:text-start"
     >
       <h3
-        class="break-words text-[26px] font-bold leading-7 tracking-wide text-[#03B4CB]"
+        class="break-words text-[26px] font-bold leading-7 tracking-wide text-primary"
       >
         Unsere Einsatzgebiete in Hamburg
       </h3>

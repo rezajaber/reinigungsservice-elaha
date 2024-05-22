@@ -86,7 +86,7 @@
 
       <!-- TEXT -->
       <h1
-        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-[#03B4CB] md:text-start"
+        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-primary md:text-start"
       >
         Willkommen bei S&N Gebäudereinigung Hamburg
       </h1>
