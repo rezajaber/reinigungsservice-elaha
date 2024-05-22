@@ -4,6 +4,7 @@ import Hero from "../components/Hero.vue";
 import TopThree from "../components/TopThree.vue";
 import Information from "../components/Information.vue";
 import Leistungen from "../components/Leistungen.vue";
+import Vorteile from "../components/Vorteile.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Leistungen from "../components/Leistungen.vue";
       <Information />
     </div>
 
-    <Leistungen class="mb-12 px-5 lg:px-0" />
+    <Leistungen class="mb-12 px-5 md:px-20 xl:px-0" />
+    <Vorteile class="mb-12 px-4 md:px-20 xl:px-0" />
   </div>
 </template>
