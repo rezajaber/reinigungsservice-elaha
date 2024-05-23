@@ -1,5 +1,35 @@
 <script setup lang="ts">
 import Button from "./ui/button/Button.vue";
+
+const stadtteile = [
+  "Lokstedt",
+  "Schnelsen",
+  "Niendorf",
+  "Langenhorn",
+  "Fuhlsbüttel",
+  "Ohlsdorf",
+  "Alsterdorf",
+  "Groß Borstel",
+  "Winterhude",
+  "Eppendorf",
+  "Hoheluft",
+  "Eimsbüttel",
+  "Harvestehude",
+  "Rotherbaum",
+  "St. Pauli",
+  "Neustadt",
+  "Altstadt",
+  "St. Georg",
+  "Hammerbrook",
+  "Lemsahl-Mellingstedt",
+  "Poppenbüttel",
+  "Hummelsbüttel",
+  "Wellingsbüttel",
+  "Sasel",
+  "Volksdorf",
+  "Rahlstedt",
+  "...",
+];
 </script>
 
 <template>
@@ -34,27 +64,13 @@ import Button from "./ui/button/Button.vue";
       />
 
       <div class="flex flex-wrap justify-center gap-2 lg:justify-start">
-        <Button size="sm" class="w-fit">Hamburg</Button>
-        <Button size="sm" class="w-fit">Lokstedt</Button>
-        <Button size="sm" class="w-fit">Winterhunde</Button>
-        <Button size="sm" class="w-fit">Eimsbüttel</Button>
-        <Button size="sm" class="w-fit">Eppendorf</Button>
-        <Button size="sm" class="w-fit">Billstedt</Button>
-        <Button size="sm" class="w-fit">Wilhemsburg</Button>
-        <Button size="sm" class="w-fit">Hamburg</Button>
-        <Button size="sm" class="w-fit">Lokstedt</Button>
-        <Button size="sm" class="w-fit">Winterhunde</Button>
-        <Button size="sm" class="w-fit">Eimsbüttel</Button>
-        <Button size="sm" class="w-fit">Eppendorf</Button>
-        <Button size="sm" class="w-fit">Billstedt</Button>
-        <Button size="sm" class="w-fit">Wilhemsburg</Button>
-        <Button size="sm" class="w-fit">Hamburg</Button>
-        <Button size="sm" class="w-fit">Lokstedt</Button>
-        <Button size="sm" class="w-fit">Winterhunde</Button>
-        <Button size="sm" class="w-fit">Eimsbüttel</Button>
-        <Button size="sm" class="w-fit">Eppendorf</Button>
-        <Button size="sm" class="w-fit">Billstedt</Button>
-        <Button size="sm" class="w-fit">Wilhemsburg</Button>
+        <Button
+          size="sm"
+          class="w-fit"
+          v-for="(stadtteil, index) in stadtteile"
+          :key="index"
+          >{{ stadtteil }}</Button
+        >
       </div>
     </div>
   </div>
