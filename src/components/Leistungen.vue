@@ -4,7 +4,7 @@ import Card from "../components/Card.vue";
 
 <template>
   <!-- Container for the entire section with responsive maximum width and spacing -->
-  <div class="mx-auto grid max-w-[1080px] gap-4 lg:gap-8">
+  <div class="mx-auto grid max-w-[1080px] gap-4 lg:gap-6">
     <!-- Header section with title and description -->
     <div class="grid gap-3">
       <h3
@@ -21,7 +21,7 @@ import Card from "../components/Card.vue";
     </div>
 
     <!-- Grid of services with responsive columns and spacing -->
-    <div class="mb-5 grid auto-rows-auto gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid auto-rows-auto gap-6 md:grid-cols-2 lg:grid-cols-3">
       <!-- Loop to create each service item -->
       <div v-for="i in 9" :key="i" class="relative">
         <div
@@ -43,8 +43,8 @@ import Card from "../components/Card.vue";
     <!-- Additional services section with highlighted information -->
     <Card
       cardColor="bg-primary"
-      cardTitle="Weitere Reinigungsleistungen in Hamburg"
-      cardContent="Unser umfassendes Reinigungsangebot deckt eine breite Palette an spezialisierten Dienstleistungen ab, darunter Schul- und Kindergartenreinigung, Fitnessstudio- und Sportanlagenreinigung, Verkehrsmittelreinigung, Restaurantreinigung, Reinigung von Vereinsräumlichkeiten, Eventreinigung und Messereinigung."
+      cardTitle="Individuelle Reinigungslösungen für jeden Bedarf"
+      cardContent="Obwohl unser umfassendes Reinigungsangebot eine Vielzahl spezialisierter Dienstleistungen umfasst – von Schul- und Kindergartenreinigung über Fitnessstudio- und Sportanlagenreinigung bis hin zur Verkehrsmittelreinigung, Restaurantreinigung, Reinigung von Vereinsräumlichkeiten, Eventreinigung und Messereinigung – verstehen wir, dass Ihre Anforderungen möglicherweise darüber hinausgehen könnten. Wenn Sie also spezifische Reinigungsdienstleistungen benötigen, die hier nicht aufgeführt sind, zögern Sie nicht, uns zu kontaktieren. Unser erfahrenes Team steht Ihnen gerne zur Verfügung, um individuelle Reinigungslösungen zu entwickeln, die genau auf Ihre Bedürfnisse zugeschnitten sind."
     />
   </div>
 </template>
