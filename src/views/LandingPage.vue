@@ -29,6 +29,6 @@ import Testimonials from "../components/Testimonials.vue";
       id="contact-us"
       class="bg-primary px-5 py-8 md:px-20 md:py-20 xl:px-0"
     />
-    <Footer class="bg-popover-foreground py-12" />
+    <Footer class="bg-popover-foreground py-12 lg:px-20" />
   </div>
 </template>
