@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { ClipboardList, NotebookPen } from "lucide-vue-next";
 import Button from "./ui/button/Button.vue";
+
+const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior });
+  }
+};
 </script>
 
 <template>
@@ -12,16 +19,15 @@ import Button from "./ui/button/Button.vue";
         <div class="lg:flex lg:items-center lg:gap-20">
           <div>
             <p class="mb-8 font-semibold md:text-lg">
-              Willkommen bei S&N Gebäudereinigung
+              Herzlichen Willkommen bei N&T-Reinungsfirma
             </p>
             <h1 class="mb-6 text-[40px] font-extrabold leading-10">
-              WEIL SAUBER NICHT GLEICH SAUBER IST
+              WEIL SAUBERKEIT VERTRAUEN SCHAFFT
             </h1>
             <p class="font-light leading-7 tracking-wide md:text-lg">
-              Entdecken Sie Reinigung, die über das Sichtbare hinausgeht:
-              <b>Qualität, Flexibilität</b> und <b>Nachhaltigkeit</b> in jedem
-              Schritt. In Hamburg sind wir Ihr verlässlicher Partner für eine
-              saubere Umwelt und Zufriedenheit.
+              Tauchen Sie ein in eine Welt der Sauberkeit, die überzeugt:
+              <b>Präzision, Flexibilität</b> und <b>Nachhaltigkeit</b> bei jedem
+              Auftrag. Wir bieten verlässliche Sauberkeit, Kundenzufriedenheit.
             </p>
           </div>
           <img
@@ -32,15 +38,16 @@ import Button from "./ui/button/Button.vue";
         </div>
 
         <div
-          class="mt-8 grid place-items-center gap-2 md:flex lg:-mt-2 xl:-mt-12"
+          class="mt-8 grid place-items-center gap-2 md:flex lg:mt-2 xl:-mt-12"
         >
-          <Button class="w-fit px-8">
+          <Button @click="scrollTo('contact-us', 'smooth')">
             <NotebookPen class="mr-2 w-5" />Angebot anfordern
           </Button>
-          <Button class="w-fit px-8">
+          <Button @click="scrollTo('leistungen', 'smooth')">
             <ClipboardList class="mr-2 w-5" />Unsere Leistungen
           </Button>
         </div>
+
         <img
           src="../assets/img/cleaning.png"
           class="lg:hidden"
