@@ -5,7 +5,7 @@
     <div
       class="mx-auto flex max-w-[1080px] flex-col items-center justify-center gap-4 md:flex-row md:justify-between"
     >
-      <img src="../assets/img/footer.svg" class="w-32" alt="Footer-Logo" />
+      <img src="../assets/img/logo.png" class="w-16" alt="Footer-Logo" />
 
       <div class="flex flex-col text-center md:flex-row md:gap-4">
         <a href=""
