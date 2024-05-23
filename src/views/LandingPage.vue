@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Header from "../components/Header.vue";
 import Hero from "../components/Hero.vue";
-import TopThree from "../components/TopThree.vue";
-import Information from "../components/Information.vue";
+import TopThree from "../components/notinuse/TopThree.vue";
+import Information from "../components/notinuse/Information.vue";
 import Leistungen from "../components/Leistungen.vue";
 import Vorteile from "../components/Vorteile.vue";
 import Engagement from "../components/Engagement.vue";
@@ -18,7 +18,6 @@ import Testimonials from "../components/Testimonials.vue";
     <Hero class="mt-28" />
 
     <div class="my-16 grid gap-4 bg-primary px-5 py-16 md:px-20 lg:px-24">
-      <!-- <TopThree /> -->
       <Testimonials />
       <Vorteile />
     </div>

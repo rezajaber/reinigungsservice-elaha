@@ -1,5 +1,44 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
+
+const leistungen = [
+  {
+    id: 1,
+    service: "Grundreinigung",
+  },
+  {
+    id: 2,
+    service: "Treppenhausreinigung",
+  },
+  {
+    id: 3,
+    service: "Unterhaltsreinigung",
+  },
+  {
+    id: 4,
+    service: "Lagerreinigung",
+  },
+  {
+    id: 5,
+    service: "Glas- und Fensterreinigung",
+  },
+  {
+    id: 6,
+    service: "Desinfektion",
+  },
+  {
+    id: 7,
+    service: "Büroreinigung",
+  },
+  {
+    id: 8,
+    service: "Praxisreinigung",
+  },
+  {
+    id: 9,
+    service: "Sozialeinrichtungen",
+  },
+];
 </script>
 
 <template>
@@ -23,18 +62,20 @@ import Card from "../components/Card.vue";
     <!-- Grid of services with responsive columns and spacing -->
     <div class="grid auto-rows-auto gap-6 md:grid-cols-2 lg:grid-cols-3">
       <!-- Loop to create each service item -->
-      <div v-for="i in 9" :key="i" class="relative">
-        <div
-          class="relative cursor-pointer duration-300 ease-in-out hover:scale-105"
-        >
+      <div
+        v-for="leistung in leistungen"
+        :key="leistung.id"
+        class="cursor-pointer duration-300 ease-in-out hover:scale-105"
+      >
+        <div>
           <img
             src="../assets/img/leistung.jpg"
-            class="rounded-lg brightness-50 duration-300 ease-in-out hover:scale-105"
+            class="rounded-t-lg brightness-75"
             alt="Leistungen"
           />
           <span
-            class="absolute inset-0 flex items-center justify-center text-2xl font-medium tracking-wide text-white"
-            >Gebäudereinigung</span
+            class="inset-0 flex items-center justify-center rounded-b-lg bg-primary py-2 text-lg font-medium tracking-wide text-white"
+            >{{ leistung.service }}</span
           >
         </div>
       </div>
