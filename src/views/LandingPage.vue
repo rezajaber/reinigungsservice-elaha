@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import Header from "../components/Header.vue";
 import Hero from "../components/Hero.vue";
-import Leistungen from "../components/Leistungen.vue";
+import Testimonials from "../components/Testimonials.vue";
 import Vorteile from "../components/Vorteile.vue";
+import Spezialisierung from "../components/Spezialisierung.vue";
+import Leistungen from "../components/Leistungen.vue";
 import Einsatzgebiete from "../components/Einsatzgebiete.vue";
 import ContactUs from "../components/ContactUs.vue";
 import Footer from "../components/Footer.vue";
-import Testimonials from "../components/Testimonials.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Testimonials from "../components/Testimonials.vue";
       <Vorteile />
     </div>
 
+    <Spezialisierung class="mb-12 px-5 md:px-20 xl:px-0" />
     <Leistungen id="leistungen" class="mb-12 px-5 md:px-20 xl:px-0" />
 
     <Einsatzgebiete class="mb-12 px-5 md:px-20 xl:px-0" />

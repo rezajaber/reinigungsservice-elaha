@@ -47,11 +47,11 @@ const leistungen = [
     <!-- Header section with title and description -->
     <div class="grid gap-3">
       <h3
-        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-primary"
+        class="break-words text-center text-[26px] font-bold leading-7 tracking-wide text-primary md:text-start"
       >
-        Unsere Leistungen für Gewerbereinigung in Hamburg
+        Unsere Leistungen für Gewerbereinigungen in Hamburg
       </h3>
-      <p class="text-center font-light leading-7 tracking-wide">
+      <p class="text-center font-light leading-7 tracking-wide md:text-start">
         S&N Gebäudereinigung steht für maßgeschneiderte Reinigungslösungen mit
         Fokus auf Nachhaltigkeit und Effizienz für Hamburger Gewerbe. Verlassen
         Sie sich auf unsere Expertise für ein hygienisch reines und optisch
