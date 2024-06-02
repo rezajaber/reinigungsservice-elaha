@@ -6,7 +6,7 @@
   >
     <!-- LOGO (Mobile) -->
     <img
-      src="../assets/img/logo-grid.svg"
+      src="../assets/img/logo.png"
       alt="Logo"
       class="w-52 md:w-80 lg:hidden"
     />

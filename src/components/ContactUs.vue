@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HeartHandshake, PhoneCall } from "lucide-vue-next";
+import { Phone, PhoneCall } from "lucide-vue-next";
 import Button from "./ui/button/Button.vue";
 </script>
 
@@ -55,7 +55,9 @@ import Button from "./ui/button/Button.vue";
         </div>
 
         <div class="grid gap-2 sm:flex lg:grid">
-          <Button class="bg-primary text-white">01523-5884265</Button>
+          <a href="tel:+49 174 9524843">
+            <Button type="button" class="w-full"> +49 174 9524843 </Button>
+          </a>
           <Button class="bg-primary text-white"
             >reinigungsservice@gmail.com</Button
           >

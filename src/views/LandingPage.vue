@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import Header from "../components/Header.vue";
 import Hero from "../components/Hero.vue";
-import TopThree from "../components/notinuse/TopThree.vue";
-import Information from "../components/notinuse/Information.vue";
 import Leistungen from "../components/Leistungen.vue";
 import Vorteile from "../components/Vorteile.vue";
-import Engagement from "../components/Engagement.vue";
 import Einsatzgebiete from "../components/Einsatzgebiete.vue";
 import ContactUs from "../components/ContactUs.vue";
 import Footer from "../components/Footer.vue";

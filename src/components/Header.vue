@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Menu, Mail, Phone, PhoneCall } from "lucide-vue-next";
+import { Menu, Mail, Phone, PhoneCall, Smartphone } from "lucide-vue-next";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -48,13 +48,24 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
               </DialogHeader>
 
               <div class="grid gap-2.5">
-                <Button type="button">
-                  <Mail class="mr-2 w-5" /> reinigungsservice@gmail.com
-                </Button>
-                <Button type="button">
-                  <Phone class="mr-2 w-5" /> 01523-5884265
-                </Button>
-                <Button>WhatsApp</Button>
+                <a href="mailto:reinigungsservice@gmail.com">
+                  <Button type="button" class="w-full">
+                    <Mail class="mr-2 w-5" /> reinigungsservice@gmail.com
+                  </Button>
+                </a>
+                <a href="tel:+49 174 9524843">
+                  <Button type="button" class="w-full">
+                    <Phone class="mr-2 w-5" /> +49 174 9524843
+                  </Button>
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=491749524843"
+                  target="_blank"
+                >
+                  <Button class="w-full"
+                    ><Smartphone class="mr-2 w-5" /> WhatsApp</Button
+                  >
+                </a>
               </div>
             </DialogContent>
           </Dialog>
@@ -68,7 +79,7 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
                 <Button
                   @click="scrollTo('contact-us', 'smooth')"
                   class="text-md font-semibold"
-                  ><Mail
+                  ><Mail class="w-5"
                 /></Button>
               </TooltipTrigger>
               <TooltipContent>
@@ -82,7 +93,7 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
                 <Button
                   @click="scrollTo('contact-us', 'smooth')"
                   class="text-md font-semibold"
-                  ><PhoneCall
+                  ><PhoneCall class="w-5"
                 /></Button>
               </TooltipTrigger>
               <TooltipContent>
@@ -90,7 +101,14 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-          <Button class="px-8">WhatsApp</Button>
+          <a
+            href="https://api.whatsapp.com/send?phone=491749524843"
+            target="_blank"
+          >
+            <Button class="px-4"
+              ><Smartphone class="mr-1.5 w-5" />WhatsApp</Button
+            >
+          </a>
         </div>
       </div>
     </div>

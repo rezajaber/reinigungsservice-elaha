@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ListChecks } from "lucide-vue-next";
-import Card from "../components/Card.vue";
+import Card from "../../components/Card.vue";
 </script>
 
 <template>
