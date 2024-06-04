@@ -58,9 +58,9 @@ import Button from "./ui/button/Button.vue";
           <a href="tel:+49 174 9524843">
             <Button type="button" class="w-full"> +49 174 9524843 </Button>
           </a>
-          <Button class="bg-primary text-white"
-            >reinigungsservice@gmail.com</Button
-          >
+          <a href="mailto:info@el-reinigung.de">
+            <Button class="bg-primary text-white">info@el-reinigung.de</Button>
+          </a>
         </div>
       </div>
     </div>

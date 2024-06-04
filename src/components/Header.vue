@@ -48,9 +48,9 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
               </DialogHeader>
 
               <div class="grid gap-2.5">
-                <a href="mailto:reinigungsservice@gmail.com">
+                <a href="mailto:info@el-reinigung.de">
                   <Button type="button" class="w-full">
-                    <Mail class="mr-2 w-5" /> reinigungsservice@gmail.com
+                    <Mail class="mr-2 w-5" /> info@el-reinigung.de
                   </Button>
                 </a>
                 <a href="tel:+49 174 9524843">
@@ -83,7 +83,7 @@ const scrollTo = (id: string, behavior: ScrollBehavior = "auto") => {
                 /></Button>
               </TooltipTrigger>
               <TooltipContent>
-                <p>reinigungsservice@gmail.com</p>
+                <p>info@el-reinigung.de</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
